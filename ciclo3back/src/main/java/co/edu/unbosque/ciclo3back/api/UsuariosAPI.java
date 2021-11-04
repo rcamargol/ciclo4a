@@ -21,6 +21,7 @@ public class UsuariosAPI {
 	
 	@Autowired //inyecta la dependencia de todos los métodos del JPA para usuarioDAO
 	private UsuariosDAO usuariosDAO;
+	private int algo;
 	
 	@PostMapping("/guardar")//Request convierte en un objeto Java desde un JSon
 	public void guardar(@RequestBody Usuarios usuarios) {
