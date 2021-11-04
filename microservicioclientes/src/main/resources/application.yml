@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      database: MicroservicioClientes
+      host: ciclo4amongodb
+      port: 27017
